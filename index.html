@@ -2,26 +2,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Basic Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 	<header class="topnav">
+		
 		<h1 class="name">Vincent Nguyen</h1>
 
-		<nav id="links">
-			<a href="index.html">About</a>
-			<a href="portfolio.html">Portfolio</a>
-			<a href="contact.html">Contact</a>
+		<nav class="links">
+		    <a href="index.html">About</a>
+		    <a href="portfolio.html">Portfolio</a>
+		    <a href="contact.html">Contact</a>
 		</nav>
+
 	</header>
+	
+	<div class="content">
+
+		<section class="main-bio">
 
 		<h2>About me</h2>
-
-		<section class="about">
 		
-			<img src="assets/images/photo.jpg" alt="photo of Vincent" class="profileimg">
+			<img src="assets/images/photo.jpg" alt="photo of Vincent" class="bio-image">
 			
-			<p>Vincent Nguyen here to surprise. I am learning to be a developer not only to just find a new job to make some money, but as a way to personally perserve my mind. I am a tinkerer and working through problems creates certain satisfaction not found in many places.
+			<p>Vincent Nguyen here to surprise. I am learning to be a developer not only to just find a new job to make some money, but as a way to personally perserve my mind. I am a tinkerer and working through problems creates a certain satisfaction not found in many places.
 			</p>
 			
 			<p>
@@ -29,6 +34,17 @@
 			</p>
 
 		</section>
+
+		<section class="contact-info">
+
+		<h3>Connect with me</h3>
+			<ul id="linkslist">
+				<li><a href="www.github.com"><img src="assets/images/github.png" alt="GitHub"></a></li>
+				<li><a href="www.linkedin.com"><img src="assets/images/linkedin.png" alt="LinkedIn"></a></li>
+				<li><a href="www.slack.com"><img src="assets/images/slack.png" alt="Slack"></a></li>
+			</ul>
+		</section>
+	</div>
 
 </body>
 </html>

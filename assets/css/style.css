@@ -16,8 +16,14 @@ body {
     border-color: #dddddd; 
     font-size: 18px;
     line-height: 150%;
+    width: 960px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
 }
+
+a {
+    display: inline;
+}
+
 
 a:link {
     color: #666666;
@@ -33,7 +39,6 @@ a:visited {
 
 
 a:hover {
-    color: hotpink;
     text-decoration: none;
 }
 
@@ -48,42 +53,81 @@ h1, h2, h3, h4 {
     padding: 20px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
     border-bottom: 2px solid #ccc;
-    
+}
+
+h1 {
+    float: left;
+    position: relative;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.topnav {
+    border-bottom: 2px solid #ccc;
+    background: #fff;
+    position: fixed;
+    width: 100%;
 }
 
 .name {
-    background-color: #4aaaa5;
+    background: #4aaaa5;
     color: #fff;
-    font-size: 30px;
+    font-size: 28px;
+    padding-left: 40px;
+    width: 240px;
+    margin-left: 100px;
+}
+
+.links {
+    position: relative;
+    text-align: right;
+    margin-top: 40px;
+}
+
+.main-bio,
+.contact-info,
+.bio-image {
+    float: left;
+    background: #fff;
+    color: #666666;
+}
+
+.main-bio {
+    float: left;
+    width: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
     padding: 20px;
-
+    clear: both;
+    border: 2px solid #dddddd;
 }
 
-#links {
-    float: right;
-    font-size: 15px;
-
-}
-
-.profileimg {
-    float: left;
-
-}
-
-#main-bio,
-#contact-info,
-#bio-image {
-    float: left;
-}
-#main-bio {
-    width: 70%;
-}
-#contact-info {
-    width: 30%;
-}
-#bio-image {
-    width: 200px;
+.bio-image {
+    padding-right: 20px;
+    width: 150px;
     height: 200px;
-    margin-right: 20px;
 }
+
+.contact-info {
+    text-align: center;
+    float: right;
+    width: 300px;
+    margin-top: 100px;
+    border: 2px solid #dddddd;
+}
+
+#linkslist li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+img {
+    margin: 5px;
+    width: 15%;
+}
+
