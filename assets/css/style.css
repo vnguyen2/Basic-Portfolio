@@ -60,7 +60,7 @@ a:active {
 }
 
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     padding: 20px;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -74,8 +74,13 @@ h1 {
 
 h2 {
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
+h3, h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
 
 header {
     border-bottom: 2px solid #ccc;
@@ -158,7 +163,49 @@ footer {
     color: #ccc;
     padding: 30px;
     text-align: center;
-    margin-top: auto;
+    margin-top: 20px;
+}
+
+/*portfolio page*/
+
+table {
+    margin: 0 auto;
+    width: 100%;
+}
+
+td {
+    padding-left: 30px;
+    margin: 0 auto;
+    align: center;
+}
+
+.portfolio {
+    border: 2px solid #dddddd;
+    margin-top: 100px;
+    float: left;
+    width: 650px;
+    background: #fff;
+    color: #666666;
+    display: table;
+}
+
+.portfolio img {
+    width: 250px;
+}
+
+.group {
+    float: left;
+    margin: auto auto;
+    padding: 10px;
+}
+
+.projecttitle {
+    background: #4aaaa9;
+    color: #fff;
+    margin-top: -60px;
+    padding: 10px;
+    position: relative;
+    text-align: center;
 }
 
 
