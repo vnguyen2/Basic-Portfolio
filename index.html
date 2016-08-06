@@ -1,14 +1,16 @@
 <html>
+
 <head>
 	<meta charset="UTF-8">
 	<title>Basic Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+
 <body>
-	<header class="topnav">
+	<header>
 		
-		<div class="spacing">
+		<div class="container">
 
 			<h1 class="name">Vincent Nguyen</h1>
 
@@ -20,34 +22,45 @@
 		</div>
 	</header>
 	
-	<div class="content">
+	<div class="container">
 
-		<section class="main-bio">
+			<section class="main-bio">
 
-		<h2>About me</h2>
+			<h2>About me</h2>
+			
+				<img src="assets/images/photo.jpg" alt="photo of Vincent" class="bio-image">
+				
+				<p>Vincent Nguyen here to surprise. I am learning to be a developer not only to just find a new job to make some money, but as a way to personally perserve my mind. I am a tinkerer and working through problems creates a certain satisfaction not found in many places.
+				</p>
+				
+				<p>
+				Aside from learning to be a developer I channel my abilities in building race cars at Boost Logic. There we push the mechancial capabilities of vehicles to the breaking point. It is a mental and physical race to produce results.
+				</p>
+
+			</section>
+
+			<aside class="contact-info">
+
+			<h3>Connect with me</h3>
+
+				<ul id="linkslist">
+					<li><a href="www.github.com" id="git"><img src="assets/images/github.png" alt="GitHub"></a></li>
+					<li><a href="www.linkedin.com"	id="linked"><img src="assets/images/linkedin.png" alt="LinkedIn"></a></li>
+					<li><a href="www.slack.com"	id="slack"><img src="assets/images/slack.png" alt="Slack"></a>
+					</li>
+				</ul>
+
+			</aside>
 		
-			<img src="assets/images/photo.jpg" alt="photo of Vincent" class="bio-image">
-			
-			<p>Vincent Nguyen here to surprise. I am learning to be a developer not only to just find a new job to make some money, but as a way to personally perserve my mind. I am a tinkerer and working through problems creates a certain satisfaction not found in many places.
-			</p>
-			
-			<p>
-			Aside from learning to be a developer I channel my abilities in building race cars at Boost Logic. There we push the mechancial capabilities of vehicles to the breaking point. It is a mental and physical race to produce results.
-			</p>
-
-		</section>
-
-		<section class="contact-info">
-
-		<h3>Connect with me</h3>
-
-			<ul id="linkslist">
-				<li><a href="www.github.com" id="git"><img src="assets/images/github.png" alt="GitHub"></a></li>
-				<li><a href="www.linkedin.com"	id="linked"><img src="assets/images/linkedin.png" alt="LinkedIn"></a></li>
-				<li><a href="www.slack.com"	id="slack"><img src="assets/images/slack.png" alt="Slack"></a></li>
-			</ul>
-		</section>
 	</div>
+
+	<footer class="site-footer">
+        	<p>
+          	&copy; 2016 Vincent Nguyen
+        	</p>
+        </div>
+    </footer>
+
 
 </body>
 </html>
