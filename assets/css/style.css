@@ -50,7 +50,7 @@ a:active {
 
 
 h1, h2, h3 {
-    padding: 20px;
+    padding: 20px 0;
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -94,6 +94,7 @@ p {
     background: #4aaaa5;
     color: #fff;
     font-size: 28px;
+    padding: 20px;
 }
 
 .links {
